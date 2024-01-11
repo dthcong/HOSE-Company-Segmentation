@@ -24,9 +24,7 @@ Data sử dụng được tổng hợp từ các nguồn 24hmoney và Rồng Vi�
 
 ## Code
 1. [A1_Scraping_P1](https://github.com/dthcong/HOSE-Company-Segmentation/blob/main/code/A1_Scraping_P1.ipynb): chứa code để scraping data lần 1 là Danh sách Cty niêm yết HOSE từ trang '24hmoney'. Kết quả là file csv 'B1_hse_comp' dùng làm input của file A2 phía dưới.
-2. [A2_Scraping_P2](https://github.com/dthcong/HOSE-Company-Segmentation/blob/main/code/A2_Scraping_P2.ipynb): chứa code scraping data chứng khoán - tài chính trong 1 năm gần nhất cho tất cả các Cty trong Ds nói trên từ trang 'data.vdsc'. Kết quả scrape được là các file data raw trong folder 'bctc'.
-
-Sau đó tiến hành xử lý và tổng hợp các file này vào 1 file csv là 'B2_finance_record'.
+2. [A2_Scraping_P2](https://github.com/dthcong/HOSE-Company-Segmentation/blob/main/code/A2_Scraping_P2.ipynb): chứa code scraping data chứng khoán - tài chính trong 1 năm gần nhất cho tất cả các Cty trong Ds nói trên từ trang 'data.vdsc'. Kết quả scrape được là các file data raw trong folder 'bctc'. Sau đó tiến hành xử lý và tổng hợp các file này vào 1 file csv là 'B2_finance_record'.
 3. [AAA_Final_Project](https://github.com/dthcong/HOSE-Company-Segmentation/blob/main/code/AAA_Final_Project.ipynb): chứa code chạy thuật toán Clustering với input là file B2 nói trên và trình bày kết quả phân cụm các công ty.
 
 ## Sample Visualization
