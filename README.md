@@ -18,9 +18,10 @@ Data sử dụng được tổng hợp từ các nguồn 24hmoney và Rồng Vi�
 
 ## Tool
 
-- Google Colab cùng các thư viện Pandas, Beautiful Soup để scrape và xử lý raw data lấy từ trang '24hmoney'.
-- Selenium để scrape data từ trang 'data.vdsc'.
-- Các thư viện Scikit-Learn để tạo và triển khai mô hình; Seaborn để trực quan hóa.
+- Google Colab, Pandas, Beautiful Soup: scrape và xử lý raw data lấy từ trang '24hmoney'.
+- Selenium WebDriver: scrape data từ trang 'data.vdsc'.
+- Scikit-Learn: tạo và triển khai mô hình.
+- Seaborn: trực quan hóa.
 
 ## Code
 1. [A1_Scraping_P1](https://github.com/dthcong/HOSE-Company-Segmentation/blob/main/code/A1_Scraping_P1.ipynb): chứa code để scraping data lần 1 là Danh sách Cty niêm yết HOSE từ trang '24hmoney'. Kết quả là file csv 'B1_hse_comp' dùng làm input của file A2 phía dưới.
