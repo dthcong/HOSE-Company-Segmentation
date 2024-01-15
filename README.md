@@ -20,7 +20,7 @@ Data sử dụng được tổng hợp từ các nguồn 24hmoney và Rồng Vi�
 
 - Google Colab, Pandas, Beautiful Soup: scrape và xử lý raw data lấy từ trang '24hmoney'.
 - Selenium WebDriver: scrape data từ trang 'data.vdsc'.
-- Scikit-Learn: tạo và triển khai mô hình.
+- Scikit-Learn: tạo và triển khai các mô hình Clustering (K-Mean, DBSCAN ...).
 - Seaborn: trực quan hóa.
 
 ## Code
