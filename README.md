@@ -30,23 +30,24 @@ Data sử dụng được tổng hợp từ các nguồn 24hmoney và Rồng Vi�
 
 ## Sample Visualization
 
-1. Dendogram để thực hiện phân cụm Hierarchical Clustering:
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/cafb3a3c-5025-44af-b4d8-62fbe79003fc" width="60%"/>
+1. Số lượng các Công ty trong 4 Cụm:
+<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/4daeb3f6-7a1c-4a8f-9c9a-92a57c1b7068" width="33%"/>
 
-2. Sử dụng các metric Elbow Method, Silhouette Coefficient và Calinski Harabaz Index để tìm số cụm tối ưu (Optimal K):
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/78490239-0391-4860-83e7-a2fe2d89c092" width="33%"/>
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/96518e90-e379-48c4-9bf8-3a657a1883fb" width="33%"/>
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/9550e410-0604-4746-a155-db5b4341e67f" width="33%"/>
+2. Phân bổ các điểm dữ trong không gian 3D với chỉ số Tổng vốn (TV):
+<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/694cc8ce-0544-442e-83da-443a5e9bd557" width="50%"/>
 
-3. Phân cụm với DBSCAN cùng K-Graph để tìm K:
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/916db068-964b-48ff-89d7-e9bd5cf9d77f" width="60%"/>
+3. Phân bổ các điểm dữ trong không gian 3D với chỉ số Giá trị sổ sách(BVPS):
+<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/1fc485bd-99f9-43a6-9cea-2beed372a18e" width="50%"/>
 
-4. Phân bổ số lượng các Công ty trong 4 Cụm:
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/4daeb3f6-7a1c-4a8f-9c9a-92a57c1b7068" width="40%"/>
+4. Tốc độ tăng trưởng Lợi Nhuận & Tổng Nợ trong 3 Quý gần nhất của 4 Cụm:
+<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/ff637b5b-d2a4-4019-a4f8-e71b8bb04ef5" width="33%"/>
+<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/cff2b203-6d1f-486c-9d39-134e15e4ac44" width="33%"/>
 
-5. Tốc độ tăng trưởng lợi nhuận & tổng nợ trong Quý gần nhất của mỗi Cụm:
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/ff637b5b-d2a4-4019-a4f8-e71b8bb04ef5" width="40%"/>
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/cff2b203-6d1f-486c-9d39-134e15e4ac44" width="40%"/>
+5. Biên độ gia tăng thị giá của 100 cổ phiếu tăng mạnh nhất HOSE sau 3 tháng kể từ T9/2023:
+<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/9b7d246a-d6b0-4a91-8dae-51c630d3338b" width="66%"/>
 
-6. Một số ngành trong Cụm 2 - Nhóm công ty tiềm năng nhất:
-<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/62f41fa7-c555-4c50-9f6c-66f7e98e40a1" width="80%"/>
+6. Biểu đồ Treemap thể hiện mức tăng thị giá của 100 CP nói trên:
+<img src="https://github.com/dthcong/HOSE-Company-Segmentation/assets/156085700/94df660e-8ae4-460f-aca9-129eb81fbadc" width="66%"/>
+
+## Result
+[Insight](https://github.com/dthcong/HOSE-Company-Segmentation/blob/main/Project%20Insight.pdf)
